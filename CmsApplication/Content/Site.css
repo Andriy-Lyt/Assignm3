@@ -1,0 +1,70 @@
+﻿
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER - FOOTER =============*/
+#header {
+    background-color: darkorange;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+}
+    #header h2 {
+        font-size: 1.5em;
+        color: white;
+        padding: 0 1em;
+    }
+#footer {
+    background-color: darkblue;
+    margin-top: 5px;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+}
+    #footer h2 {
+        font-size: 1.5em;
+        color: white;
+        padding: 0 1em;
+    }
+/* BODY =============*/
+body {
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Wrapping element */
+/* FONTS ==================*/
+a, p, td {
+    font-size: 1.2em;
+}
+
+/* Table */
+table {
+    margin: 10px 0;
+}
+th {
+    padding: 10px;
+}
+td {
+    padding: 7px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input, select,  textarea {
+    max-width: 280px;
+}
+textarea {
+    height: 300px;
+}
+

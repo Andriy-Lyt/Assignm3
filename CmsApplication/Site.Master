@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CmsApplication.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> – CMS</title>
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="~/Content/Site.css" />
+</head>
+<body> 
+    <!-- HEADER-->   
+    <header id="header">
+         <h2>I love CRUD!</h2>
+         <!--   <img src="https://seeklogo.com/images/C/CMS-logo-C675F3A03E-seeklogo.com.png" />  -->      
+    </header>
+
+    <!-- MAIN CONTENT -->   
+      <asp:ContentPlaceHolder ID="MainContent" runat="server">
+      </asp:ContentPlaceHolder>
+
+    <!--FOOTER -->  
+    <footer id="footer">
+        <h2 >CRUD is my life!</h2>
+    </footer>
+</body>
+</html>
